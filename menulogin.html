@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  </head>
+  <style>
+    *{
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+    a:hover{
+        color: red;
+    }
+  </style>
+  <body class="bg-primary p-none">
+    <div class="container-fluid ">
+        <nav class="container-fluid d-sm-flex justify-content-around align-items-center pt-3 bg-primary text-light  ">
+            <div class="navlogo border-dark ">
+                <h3 class="h3">facebook</h3>
+            </div>
+            <div class="navlinks">
+                <ul class="d-flex gap-4 ">
+                    <li><a class="text-light text-decoration-none" href="">home</a></li>
+                    <li><a  class="text-light text-decoration-none" href="">menu</a></li>
+                    <li><a  class="text-light text-decoration-none" href="">about</a></li>
+                    <li><a  class="text-light text-decoration-none" href="">time</a></li>
+                    <li><a  class="text-light text-decoration-none" href="">service</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container d-grid justify-content-center align-items-center mt-5 bg-light p-5">
+            <div class="login d-flex flex-column gap-2 ">
+                <h3 class="h6">username</h3>
+                <input type="text" name="" id="" class="d-inline-block w-100 h-10 px-2">
+                <h3 class="h6">password</h3>
+                <input type="password" name="" id="" class="d-inline-block w-100 h-10 px-2">
+                <div class="btnlogin">
+                    <button class="btn btn-primary mx-30 btn-sm">login</button>
+                    <button class="btn btn-primary float-left btn-sm">create account</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer container d-flex justify-content-center align-items-center mt-5 p-none">
+        <div class="menu-footer text-light d-flex flex-column gap-1 justify-content-center align-items-center">
+            <h3 class="h2 text-uppercase">facebook</h3>
+            <b class='text-capitalize'>copyright by facebook</b>
+            <p class='text-capitalize'>thanks you for join this website</p>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+  </body>
+</html>
